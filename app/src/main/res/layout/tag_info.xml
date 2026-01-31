@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+ 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textSize="@dimen/tag_text_size"
+        android:singleLine="true"
+        android:text="CheckBox" />
+
+    <ImageButton
+         android:id="@+id/deleteButton"
+         android:src="@drawable/menudelete"
+         android:scaleType="fitCenter"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:background="@android:color/transparent"
+         android:layout_alignBottom="@+id/checkBox"
+         android:layout_alignTop="@+id/checkBox"
+         android:visibility="gone"
+         android:onClick="DeleteItem"
+        />
+
+    <EditText
+        android:id="@+id/textInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tag_text_size"
+        android:visibility="gone"
+        android:inputType="text"
+        android:singleLine="true"
+        android:hint="@string/tags_hint"
+        android:imeOptions="actionDone"
+        />
+
+ 
+</RelativeLayout>

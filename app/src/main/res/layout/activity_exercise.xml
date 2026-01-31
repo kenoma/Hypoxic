@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:layout_gravity="center"
+        >
+       <!-- <ImageButton
+            android:id="@+id/sound_on_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/volumeon"
+            android:onClick="SetSoundOnOFF"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            />-->
+        <TextView
+            android:id="@+id/cycles_remains"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/training_remains_font_size"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name"
+            />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/heart_icon"-->
+
+            <!--android:layout_height=""-->
+            <!--android:layout_width="wrap_content"-->
+          <!---->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:src="@drawable/monitor"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:scaleType="fitCenter"-->
+
+            <!--android:layout_alignBottom="@+id/sound_on_off"-->
+            <!--android:layout_alignTop="@+id/sound_on_off"-->
+            <!--android:visibility="gone"-->
+            <!--/>-->
+        <TextView
+            android:id="@+id/heart_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/training_remains_font_size"
+            android:textColor="@color/volume_button_active"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/training_remains_font_size"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator"/>
+
+    <ImageView
+        android:id="@+id/image_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:contentDescription="@string/title_activity_temptemp"
+        android:scaleType="fitXY"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator"/>
+
+    <com.lanius.kenoma.pob.visualizations.ExerciseDraw
+        android:id="@+id/draw_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.72"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator"/>
+
+    <TextView
+        android:id="@+id/current_phase"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/training_action_font_size"
+        android:layout_weight="0.16"
+        android:text="@string/app_name"
+        />
+
+</LinearLayout>

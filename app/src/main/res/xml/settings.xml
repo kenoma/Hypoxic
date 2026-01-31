@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<PreferenceCategory android:title="@string/pref_user_profile" >-->
+    <!--<EditTextPreference-->
+    <!--android:title="@string/pref_user_height"-->
+    <!--android:summary="@string/pref_user_height_summary"-->
+    <!--android:singleLine="true"-->
+    <!--android:inputType="numberSigned"-->
+    <!--android:key="prefUserHeight"/>-->
+
+    <!--<ListPreference-->
+    <!--android:title="@string/pref_user_sex"-->
+    <!--android:summary="@string/pref_user_sex_summary"-->
+    <!--android:key="prefUserSex"-->
+    <!--android:entries="@array/sexList"-->
+    <!--android:entryValues="@array/sexList"-->
+    <!--/>-->
+    <!--<com.lanius.kenoma.pob.Classes.DatePreference-->
+    <!--android:title="@string/pref_user_bdate"-->
+    <!--android:summary="@string/pref_user_bdate_summary"-->
+    <!--android:key="prefUserBirthdate"-->
+    <!--/>-->
+
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory android:title="@string/pref_exercise_visualization">
+
+
+        <ListPreference
+            android:title="@string/pref_exercise_visualization_name"
+            android:summary="@string/pref_exercise_visualization_summary"
+            android:key="prefVisual"
+            android:entries="@array/ExVisual"
+            android:entryValues="@array/_ExVisual"
+            android:defaultValue="Circles"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_hr_monitor">
+
+        <ListPreference
+            android:title="@string/pref_hr_monitor_auto_switch_summary"
+            android:summary="@string/pref_hr_monitor_auto_switch"
+            android:key="prefHRMode"
+            android:entries="@array/HRMode"
+            android:entryValues="@array/_HRMode"
+            android:defaultValue="none"
+            />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="switchOnFlash"
+            android:summary="@string/settings_camera_flash_description"
+            android:title="@string/settings_camera_flash">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_exercise">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="allowDailyReminder"
+            android:summary="@string/settings_alarm_description"
+            android:title="@string/settings_alarm_allowdr">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="isPreventScreenLock"
+            android:summary="@string/pref_exercise_screen_onoff_summary"
+            android:title="@string/pref_exercise_screen_onoff">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="isTagsAllowed"
+            android:summary="@string/pref_exercise_tag_onoff_summary"
+            android:title="@string/pref_exercise_tag_onoff">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefSoundOnOff"
+            android:summary="@string/pref_exercise_sound_onoff_summary"
+            android:title="@string/pref_exercise_sound_onoff">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefMetronomeOnOff"
+            android:summary="@string/pref_exercise_metronome_onoff_summary"
+            android:title="@string/pref_exercise_metronome_onoff">
+        </CheckBoxPreference>
+
+        <com.lanius.kenoma.pob.Classes.SoundListPreference
+            android:key="prefInhaleSound"
+            android:entries="@array/breathSounds"
+            android:summary="@string/pref_exercise_sound_inhale_summary"
+            android:entryValues="@array/breathSoundsFiles"
+            android:defaultValue="clean_e1"
+            android:title="@string/pref_exercise_sound_inhale"/>
+
+        <com.lanius.kenoma.pob.Classes.SoundListPreference
+            android:key="prefPauseSound"
+            android:entries="@array/breathSounds"
+            android:summary="@string/pref_exercise_sound_pause_summary"
+            android:entryValues="@array/breathSoundsFiles"
+            android:defaultValue="drum_1"
+            android:title="@string/pref_exercise_sound_pause"/>
+
+        <com.lanius.kenoma.pob.Classes.SoundListPreference
+            android:key="prefExhaleSound"
+            android:entries="@array/breathSounds"
+            android:summary="@string/pref_exercise_sound_exhale_summary"
+            android:entryValues="@array/breathSoundsFiles"
+            android:defaultValue="clean_re"
+            android:title="@string/pref_exercise_sound_exhale"/>
+
+        <com.lanius.kenoma.pob.Classes.SoundListPreference
+            android:key="prefHoldSound"
+            android:entries="@array/breathSounds"
+            android:summary="@string/pref_exercise_sound_hold_summary"
+            android:entryValues="@array/breathSoundsFiles"
+            android:defaultValue="drum_2"
+            android:title="@string/pref_exercise_sound_hold"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_advanced">
+        <Preference
+            android:title="@string/pref_advanced_directory"
+            android:summary="@string/pref_advanced_directory_summary"
+
+            android:key="prefPathToAdditionalEx"/>
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

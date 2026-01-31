@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="inhale">#FF4444</color>
+    <color name="pause">#77CC00</color>
+    <color name="exhale">#AA66EC</color>
+    <color name="hold">#33B5E5</color>
+
+    <color name="hypoxic_hold">#33C5C5</color>
+
+    <!--<color name="separator">#33b5e5</color>-->
+    <color name="separator">#cccccc</color>
+
+    <color name="blank">#ffffffff</color>
+    <color name="exercise_back">#FFFFFFFF</color>
+    <color name="exercise_text">#FF331133</color>
+    <color name="volume_button_active">#ff9999aa</color>
+    <color name="volume_button_inactive">#ffddddee</color>
+    <color name="background_info">#ffaaaaaa</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="description_background">#ffdddddd</color>
+    <color name="exercise_gray">#ffaaabaa</color>
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+
+
+</resources>

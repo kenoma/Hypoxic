@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="breathSoundsFiles">
+        <item name="0">NA</item>
+        <item name="1">basket_ball_kick</item>
+        <item name="2">bass</item>
+        <item name="3">beer_bottle</item>
+        <item name="4">fins_scale</item>
+        <item name="5">blow</item>
+        <item name="6">club_kick</item>
+        <item name="7">drum_1</item>
+        <item name="8">drum_2</item>
+        <item name="9">guitar_1</item>
+        <item name="10">guitar_2</item>
+        <item name="11">clean_re</item>
+        <item name="12">clean_e1</item>
+        <item name="13">kick</item>
+        <item name="14">knock</item>
+        <item name="15">piano_g</item>
+        <item name="16">scifi</item>
+        <item name="17">sfx</item>
+        <item name="18">short_sweep</item>
+        <item name="19">snare_hard</item>
+        <item name="20">toy_piano</item>
+        <item name="21">ultra_subs</item>
+        <item name="22">wooden_tock</item>
+    </string-array>
+
+    <string-array name="breathSounds">
+        <item name="0">No sound</item>
+        <item name="1">Knock</item>
+        <item name="2">Bass</item>
+        <item name="3">Bottle blow</item>
+        <item name="4">Blip</item>
+        <item name="5">Blow</item>
+        <item name="6">Club kick</item>
+        <item name="7">Drum I</item>
+        <item name="8">Drum II</item>
+        <item name="9">Guitar I</item>
+        <item name="10">Guitar II</item>
+        <item name="11">Ding</item>
+        <item name="12">Dong</item>
+        <item name="13">Kick</item>
+        <item name="14">Knock</item>
+        <item name="15">Piano</item>
+        <item name="16">Sci-fi</item>
+        <item name="17">SFX</item>
+        <item name="18">Short sweep</item>
+        <item name="19">Hard snare</item>
+        <item name="20">Toy piano</item>
+        <item name="21">Ultra sub</item>
+        <item name="22">Wooden bonnet</item>
+    </string-array>
+
+    <string-array name="sexList">
+        <item name="male">Male</item>
+        <item name="female">Female</item>
+    </string-array>
+
+    <string-array name="ExVisual">
+        <item name="0">None</item>
+        <item name="1">Circles</item>
+        <item name="2">Dot Dance</item>
+        <item name="3">Flower</item>
+    </string-array>
+
+    <string-array name="_ExVisual">
+        <item name="0">None</item>
+        <item name="1">Circles</item>
+        <item name="2">Serpinsky</item>
+        <item name="3">Flower</item>
+    </string-array>
+
+    <string-array name="stat_modes">
+        <item name="0">default</item>
+        <item name="1">tag</item>
+    </string-array>
+
+
+    <string-array name="rainbow">
+        <item>@color/bright_pink</item>
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/yellow</item>
+        <item>@color/chartreuse</item>
+        <item>@color/green</item>
+        <item>@color/spring_green</item>
+        <item>@color/cyan</item>
+        <item>@color/azure</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/magenta</item>
+    </string-array>
+
+    <string-array name="HRMode">
+        <item name="0">Ничего</item>
+        <item name="1">Камера</item>
+        <item name="2">HxM BT Zephyr</item>
+        <item name="3">Встроенный сенсор (Тестирование)</item>
+    </string-array>
+
+
+</resources>

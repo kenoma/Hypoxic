@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center">
+
+
+    <Spinner
+        android:id="@+id/exerc_name"
+        android:layout_margin="@dimen/pretrain_chart_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/exerc_options"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="400dp"-->
+    <!--android:background="@drawable/rounded_layout_bg"-->
+    <!--android:layout_toRightOf="@+id/exerc_name"-->
+    <!--android:layout_alignTop="@+id/exerc_name"-->
+    <!--android:layout_alignBottom="@+id/exerc_name"-->
+    <!--android:src="@drawable/gear"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:padding="6dp"-->
+    <!--android:contentDescription="@string/exerc_details_button"-->
+    <!--android:onClick="showDetailedInfo"-->
+    <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:gravity="bottom|center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/pretrain_caption_estimated_ex_time_font_size"
+            android:textColor="#ff999999"
+            android:text="@string/caption_estimated_ex_time"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            />
+
+        <TextView
+            android:gravity="top|center_horizontal"
+            android:id="@+id/overall_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/pretrain_pretrain_overall_time_font_size"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/pretrain_chart_margin"
+        android:padding="@dimen/pretrain_chart_padding"
+        android:background="@drawable/rounded_layout_bg"
+
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/camera_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="8px"
+            android:visibility="gone"/>
+        </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_margin="@dimen/pretrain_chart_margin"
+        android:id="@+id/start_button"
+        android:text="@string/button_exercise_start"
+        android:textSize="@dimen/button_font_size"
+        android:onClick="StartExercize"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="20dp"
+        android:singleLine="true"
+        android:background="@drawable/button_background"
+        />
+
+  <fragment
+        android:id="@+id/adFragment"
+        android:name="com.lanius.kenoma.pob.AdFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

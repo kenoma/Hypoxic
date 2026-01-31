@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="no_bluetoothsupport">Bluetooth не поддерживается</string>
+    <string name="hxm_monitor_connected">HXM Zephyr найден</string>
+    <string name="hxm_monitor_lost"> Нет ♥ данных </string>
+    <string name="hxm_not_paired">Нет спаренных HxM Zephyr устройств </string>
+
+    <string name="button_settings">Настройки</string>
+    <string name="button_reconnect">Подключить монитор сердечного ритма</string>
+    <string name="button_exercise_details">Информация об упражнении</string>
+
+    <string name="button_db">Дневник занятий</string>
+    <string name="button_stat">Статистика</string>
+    <string name="button_exercise_start">Старт!</string>
+    <string name="button_exercise_resume">Продолжить</string>
+    <string name="hr_chart_title">Данные ритма сердца</string>
+    <string name="control_hr_chart_title">Целевое значение</string>
+    <string name="caption_estimated_ex_time">Требуемое время</string>
+    <string name="exercize_done">Готово</string>
+    <string name="exercize_press_back">Подождите секунду</string>
+    <string name="exercize_preparation_1">Выдохните</string>
+    <string name="exercize_preparation_2">Вдох через 3…</string>
+    <string name="exercize_preparation_3">Вдох через 2…</string>
+    <string name="exercize_preparation_4">Вдох через 1…</string>
+    <string name="exercize_inhale">Вдох</string>
+    <string name="exercize_pause">Пауза</string>
+    <string name="exercize_exhale">Выдох</string>
+    <string name="exercize_hold">Задержка</string>
+    <string name="exercize_cycles">Циклы</string>
+    <string name="exercise_units">[сек]</string>
+    <string name="exercize_remains">Осталось %s циклов</string>
+    <string name="title_activity_tag_selector">TagSelectorActivity</string>
+    <string name="default_tags">Напряженный день;После тренировки;Выпил чаю/кофе</string>
+    <string name="weight">Вес:</string>
+    <string name="wrong_pattern" formatted="false">Неудачно, вы попытались задать паттерн %s в то время как главный паттерн %s</string>
+    <string name="title_activity_result">Результат</string>
+
+    <string name="result_heart_rate_chart">График динамики ритма сердца</string>
+    <string name="title_activity_view_database">Дневник</string>
+    <string name="database_send_email">Отправить по сети</string>
+    <string name="database_fail_email">Почтовые клиенты не установлены</string>
+    <string name="chart_heartbeat">Номер сердечного сокращения</string>
+    <string name="chart_heartrate">ЧСС, уд/мин</string>
+    <string name="chart_heartrate_status" formatted="false">ЧСС: %s уд/мин, Заряд батареи: %s %%</string>
+    <string name="chart_screenshot">Послать скриншот</string>
+    <string name="alternative_text_start">1</string>
+    <string name="alternative_text_end">конец</string>
+    <string name="tags_hint">Новая метка</string>
+    <string name="title_activity_settings">Настройки приложения</string>
+    <string name="pref_hr_monitor">Монитор сердечной активности</string>
+    <string name="pref_hr_monitor_auto_switch">Запись ритма сердца</string>
+    <string name="pref_hr_monitor_auto_switch_summary">Запись ритма сердца</string>
+    <string name="pref_exercise">Настроки тренировочных сессий</string>
+    <string name="pref_exercise_sound_inhale">Оповещение на вдохе</string>
+    <string name="pref_exercise_sound_inhale_summary">Звук при вдохе</string>
+    <string name="pref_exercise_sound_pause">Оповещение на паузе</string>
+    <string name="pref_exercise_sound_pause_summary">Звук при паузе</string>
+    <string name="pref_exercise_sound_exhale">Оповещение на выдохе</string>
+    <string name="pref_exercise_sound_exhale_summary">Звук при выдохе</string>
+    <string name="pref_exercise_sound_hold">Оповещение на задержке</string>
+    <string name="pref_exercise_sound_hold_summary">Звук при задержке</string>
+    <string name="pref_exercise_sound_onoff">Включить звук</string>
+    <string name="pref_exercise_sound_onoff_summary">Разрешить звуки во время упражнений</string>
+    <string name="pref_exercise_tag_onoff">Метки для упражнений</string>
+    <string name="pref_exercise_tag_onoff_summary">Разрешить добавлять метки к тренировочным сессиям</string>
+    <string name="pref_exercise_visualization">Визуализация</string>
+    <string name="pref_exercise_visualization_name">Тип</string>
+    <string name="pref_exercise_visualization_summary">Выберите тип визуализации</string>
+    <string name="title_activity_temptemp">temptemp</string>
+    <string name="heart_rate_variability_title">Результаты упражнения</string>
+    <string name="heart_rate_variability_RecordLength">Длина записи</string>
+
+
+    <string name="heart_rate_variability_var_header" formatted="false">
+        <![CDATA[
+        <tr>
+            <td><b>Показатель<b></td>
+            <td><b>Текущее значение<b></td>
+            <td><b>Динамика<b></td>
+        </tr>
+        ]]>
+    </string>
+    <string name="heart_rate_variability_var_mask" formatted="false">
+        <![CDATA[
+        <tr>
+            <td><b>%s<b></td>
+            <td>%s %s</td>
+            <td>%s %%</td>
+        </tr>
+        ]]>
+    </string>
+
+     <string name="no_heart_rate_provided" formatted="false">
+        <![CDATA[
+         <br/>
+         <h2>Эта сессия не содержит данных о ритме сердца.</h2>
+        ]]>
+    </string>
+
+    <string name="heart_rate_variability_Millisecond_mask" formatted="false">%.2f мс</string>
+
+    <string name="title_activity_statistic">Статистика</string>
+    <string name="statistics_no_tags">Без метки</string>
+    <string name="statistics_no_data">Недостаточно данных</string>
+    <string name="statistics_text_mask" formatted="false">Показатель \'%s\': %.2f ± %.2f %s</string>
+    <string name="exerc_details_button">детали</string>
+    <string name="title_activity_pretrain_description">Предтренировка</string>
+    <string name="info_variables">Информация по показателям</string>
+    <string name="variables_description" formatted="false">
+    <![CDATA[
+    <p><b>%s</b> - %s</p>
+    ]]>
+    </string>
+
+    <string name="progress_recompute_title">Пересчет записей</string>
+    <string name="progress_recompute_text">Подождите, пока совершается пересчет записей</string>
+
+    <string name="progress_connect_hr_monitor_title">Подготовка датчика ритма сердца</string>
+    <string name="progress_connect_hr_monitor_text">Подготовьте свой датчик ритма сердца и подождите, пока данные не начнут поступать в приложение…</string>
+
+    <string name="pretrain_description_title">Информация об упраженении</string>
+    <string name="description_scheme">Детали тренировки</string>
+
+    <string name="exercize_hypoxic_hold">Задержка дыхания</string>
+    <string name="exercize_phase_interrupted">Прервана фаза</string>
+    <string name="welcome_alert_title">Предупреждение</string>
+    <string name="welcome_alert_content">Некоторые дыхательные упражнения имеют противопоказания. Проконсультируйтесь с вашим врачом, если у вас есть сомнения.</string>
+    <string name="welcome_alert_ok">Понятно</string>
+    <string name="welcome_alert_ok_do_not_show_again">Понятно, не показывайте больше</string>
+
+    <string name="pref_exercise_screen_onoff">Управление питанием экрана</string>
+    <string name="pref_exercise_screen_onoff_summary">Запрещать выключение экрана во время выполнения упражнений.</string>
+
+    <string name="sound_pref_chooose_file">Выбрать файл</string>
+    <string name="sound_pref_cancel">Отмена</string>
+    <string name="settings_only_short_audio_enabled">Только короткие (длительностью менее 5 сек) аудио файлы разрешены.</string>
+
+    <string name="pref_advanced">Дополнительно</string>
+    <string name="pref_advanced_directory">Путь к файлу hypoxic_add.xml</string>
+    <string name="pref_advanced_directory_summary">Укажите директорию, где расположен файл с дополнительными упражнениями</string>
+
+    <string name="alarm_title">Hypoxic - напоминание</string>
+    <string name="alarm_content">Не забудьте сегодня выполнить дыхательные упрежнения</string>
+    <string name="settings_alarm_allowdr">Дневное напоминание</string>
+    <string name="settings_alarm_description">Разрешить раз в день напомнить о необходимости позаниматься</string>
+
+    <string name="camera_alert_title">Предупреждение</string>
+    <string name="camera_alert_content">\tЭта опция все еще находится в разработке. Общие замечания:
+\n
+\n\tЛинзу камеры нужно накрывать подушечкой пальца, превью в левом верхнем углу экрана должно окраситься в красный цвет.
+\n\tСтарайтесь не двигать пальцем, особенно во время задержки дыхания.
+\n\tНе давите слишком сильно, это нарушает кровообращение в пальце.
+\n\tЛучший результат получается в хорошо освещенном помещении.
+\n\tЕсли вы испытываете тормоза или дерганье картинки во время упражнения, установите режим визуализации None.
+    </string>
+    <string name="camera_alert_ok_do_not_show_again">OK, не напоминать больше</string>
+
+    <string name="settings_camera_flash">Использовать подсветку</string>
+    <string name="settings_camera_flash_description">Включить подсветку в режиме Камеры</string>
+    <string name="sensor_no_support">Ваша ОС не поддерживает TYPE_HEART_RATE. Данных о ритме сердца нет.</string>
+    <string name="camera_service_no_camera">Нет подходящей камеры!</string>
+    <string name="button_schedule">Расписание</string>
+    <string name="alarmclock_no_support">Будильники не поддерживаются.</string>
+
+    <string name="pref_exercise_metronome_onoff_summary">Отсчет метронома на более чем 5-и секундных дыхательных фазах</string>
+    <string name="pref_exercise_metronome_onoff">Включить метроном</string>
+
+    <string name="app_rate">Если вам понравилось приложение, пожалуйста, поставьте ему оценку! Спасибо за вашу поддержку!</string>
+    <string name="app_rate_title">Оценить <b>Tabata regimen</b></string>
+    <string name="app_rate_remind_later">Напомнить позже</string>
+    <string name="app_rate_no">Нет, спасибо</string>
+
+</resources>

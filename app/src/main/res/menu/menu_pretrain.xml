@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/view_reconnect_hr_monitor"
+          android:title="@string/button_reconnect"
+          android:orderInCategory="1"
+          android:icon="@drawable/ic_exercise_hr"
+          app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/view_exercise_details"
+          android:title="@string/button_exercise_details"
+          android:orderInCategory="2"
+          android:icon="@drawable/ic_exercise_details"
+          app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/view_settings"
+          android:title="@string/button_settings"
+          android:orderInCategory="3"
+          android:icon="@drawable/ic_exercise_config"
+          app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/view_db"
+          android:title="@string/button_db"
+          android:orderInCategory="4"
+          android:icon="@drawable/ic_exercise_log"
+          app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/view_schedule"
+          android:title="@string/button_schedule"
+          android:orderInCategory="5"
+          android:icon="@drawable/ic_alarmclock"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/view_statistics"
+          android:title="@string/button_stat"
+          android:orderInCategory="6"
+          android:icon="@drawable/ic_exercise_stats"
+          app:showAsAction="ifRoom"/>
+
+</menu>

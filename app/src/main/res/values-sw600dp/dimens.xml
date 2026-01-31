@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="pretrain_pretrain_overall_time_font_size">90sp</dimen>
+    <dimen name="pretrain_caption_estimated_ex_time_font_size">60sp</dimen>
+    <dimen name="pretrain_chart_padding">15dp</dimen>
+    <dimen name="pretrain_chart_margin">15dp</dimen>
+    <dimen name="exercise_info_main_text">30sp</dimen>
+    <dimen name="exercise_info_small_text">20sp</dimen>
+    <dimen name="tag_text_size">40dp</dimen>
+
+    <dimen name="training_remains_font_size">20sp</dimen>
+    <dimen name="training_action_font_size">30sp</dimen>
+
+    <dimen name="button_font_size">70sp</dimen>
+    <dimen name="button_height">120sp</dimen>
+
+    <dimen name="pretrain_spinner_width">460dp</dimen>
+    <dimen name="description_column_header_size">20sp</dimen>
+    <dimen name="description_column_text_size">20sp</dimen>
+    <dimen name="description_title_text_size">20sp</dimen>
+    <dimen name="description_text_size">18sp</dimen>
+    <dimen name="description_exercise_scheme_text_size">20sp</dimen>
+    <dimen name="view_db_record_text_size">35sp</dimen>
+
+    <dimen name="statistic_chart_header_text_size">24sp</dimen>
+    <dimen name="statistic_chart_tags_text_size">16sp</dimen>
+    <dimen name="statistic_margin_var">20dp</dimen>
+    <dimen name="statistics_margin_var_right">50dp</dimen>
+</resources>

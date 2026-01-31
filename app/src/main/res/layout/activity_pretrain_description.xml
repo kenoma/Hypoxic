@@ -1,0 +1,334 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:background="@drawable/rounded_layout_bg"
+    >
+
+
+    <TextView
+        android:id="@+id/desciption_ex_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textSize="@dimen/description_title_text_size"
+        android:textStyle="bold"
+        android:text="dumb"
+        />
+
+    <TextView
+        android:id="@+id/desciption_ex_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/description_text_size"
+        android:layout_gravity="center"
+        android:text="dumb"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/background_info"
+        android:textSize="@dimen/description_exercise_scheme_text_size"
+        android:text="@string/description_scheme"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:padding="4dp"
+        android:background="@drawable/rounded_layout_bg"
+        android:fillViewport="true"
+        >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:stretchColumns="*"
+            >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dip"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/pane_inhale"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exercize_inhale"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        android:id="@+id/col_capt_inhale"
+                        android:textColor="@color/inhale"
+                        />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exercise_units"
+                        android:textColor="@color/background_info"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        android:layout_below="@+id/col_capt_inhale"
+                        android:id="@+id/capt_inhale"
+                        />
+
+                    <kankan.wheel.widget.WheelView
+                        android:id="@+id/picker_phase_inhale"
+                        android:layout_below="@+id/capt_inhale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_phase_inhale"
+                        android:layout_below="@+id/capt_inhale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/description_column_text_size"
+                        android:text="10\n20\n30\n10\n10\n10\n10"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pane_pause"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exercize_pause"
+                        android:id="@+id/col_capt_hold_1"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        android:textColor="@color/pause"
+                        />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exercise_units"
+                        android:textColor="@color/background_info"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        android:layout_below="@+id/col_capt_hold_1"
+                        android:id="@+id/capt_hold_1"
+                        />
+
+                    <kankan.wheel.widget.WheelView
+                        android:layout_below="@+id/capt_hold_1"
+                        android:id="@+id/picker_phase_pause_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_phase_pause"
+                        android:layout_below="@+id/capt_hold_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/description_column_text_size"
+                        android:text="10\n20\n30"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pane_exhale"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exercize_exhale"
+                        android:id="@+id/col_capt_exhale"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        android:textColor="@color/exhale"
+                        />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exercise_units"
+                        android:textColor="@color/background_info"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        android:layout_below="@+id/col_capt_exhale"
+                        android:id="@+id/capt_exhale"
+                        />
+
+                    <kankan.wheel.widget.WheelView
+                        android:layout_below="@+id/capt_exhale"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/picker_phase_exhale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_phase_exhale"
+                        android:layout_below="@+id/capt_exhale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/description_column_text_size"
+                        android:text="10\n20\n30"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pane_hold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exercize_hold"
+                        android:id="@+id/col_capt_hold_2"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        android:textColor="@color/hold"
+                        />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exercise_units"
+                        android:textColor="@color/background_info"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        android:layout_below="@+id/col_capt_hold_2"
+                        android:id="@+id/capt_hold_2"
+                        />
+
+                    <kankan.wheel.widget.WheelView
+                        android:layout_below="@+id/capt_hold_2"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/picker_phase_pause_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_phase_hold"
+                        android:layout_below="@+id/capt_hold_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/description_column_text_size"
+                        android:text="10\n20\n30"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pane_cycles"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exercize_cycles"
+                        android:id="@+id/col_capt_cycles"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/capt_cycles"
+                        android:layout_below="@+id/col_capt_cycles"
+                        android:textSize="@dimen/description_column_header_size"
+                        android:gravity="center"
+                        />
+
+                    <kankan.wheel.widget.WheelView
+                        android:layout_below="@+id/capt_cycles"
+                        android:id="@+id/picker_cycles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_phase_cycles"
+                        android:layout_below="@+id/capt_cycles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/description_column_text_size"
+                        android:text="JO\n0f\nhki"
+
+                        />
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Hypoxic - Breathing Exercises</string>
+    <string name="no_bluetoothsupport">Bluetooth is not supported</string>
+    <string name="hxm_monitor_connected">HxM Zephyr device is found</string>
+    <string name="hxm_monitor_lost"> No ♥ data </string>
+    <string name="hxm_not_paired">There is no paired HxM Zephyr device</string>
+    <string name="button_settings">Settings</string>
+    <string name="button_reconnect">Connect HR monitor </string>
+    <string name="button_exercise_details">Exercise details</string>
+    <string name="button_db">Exercise log</string>
+    <string name="button_stat">Statistics</string>
+    <string name="button_schedule">Schedule</string>
+    <string name="button_exercise_start">Start!</string>
+    <string name="button_exercise_resume">Resume</string>
+    <string name="hr_chart_title">Waiting for ♥ data…</string>
+    <string name="control_hr_chart_title">Target rate</string>
+    <string name="caption_estimated_ex_time">Time required</string>
+    <string name="exercize_done">Done</string>
+    <string name="exercize_press_back">Wait a second</string>
+    <string name="exercize_preparation_1">Be ready to inhale</string>
+    <string name="exercize_preparation_2">Inhale in 3…</string>
+    <string name="exercize_preparation_3">Inhale in 2…</string>
+    <string name="exercize_preparation_4">Inhale in 1…</string>
+    <string name="exercize_inhale">Inhale</string>
+    <string name="exercize_pause">Pause</string>
+    <string name="exercize_exhale">Exhale</string>
+    <string name="exercize_hold">Hold</string>
+    <string name="exercize_hypoxic_hold">Breath hold</string>
+    <string name="exercize_cycles">Cycles</string>
+    <string name="exercise_units">[sec]</string>
+    <string name="exercize_remains">Remains %s cycles</string>
+    <string name="exercize_phase_interrupted">Phase interrupted</string>
+    <string name="title_activity_tag_selector">TagSelectorActivity</string>
+    <string name="default_tags">Stressful day;Workout;After tea/coffee</string>
+    <string name="weight">Weight:</string>
+    <string name="wrong_pattern" formatted="false">Fail, you try to setup pattern %s, when main pattern is %s</string>
+    <string name="title_activity_result">Result</string>
+    <string name="result_heart_rate_chart">Heart rate chart</string>
+    <string name="result_breath_heart_rate_chart" translatable="false">Breath vs heart interbeat duration</string>
+    <string name="result_breath_heart_rate_averhr" translatable="false">Average heart rate during breath phase, bpm</string>
+    <string name="result_breath_heart_rate_br" translatable="false">Breath rate, bpm</string>
+    <string name="result_breath_rate" translatable="false">Breath rate</string>
+    <string name="title_activity_view_database">Log</string>
+    <string name="database_send_email">Send to …</string>
+    <string name="database_fail_email">There is no email client installed.</string>
+    <string name="database_email_title" translatable="false">POB Database</string>
+    <string name="chart_phases_indexes" translatable="false">Phase index</string>
+    <string name="chart_phase_rate" translatable="false">Phase rate, bpm</string>
+    <string name="chart_heartbeat">Heartbeat number</string>
+    <string name="chart_heartrate">Heart rate, bpm</string>
+    <string name="chart_heartrate_status" formatted="false">Heart rate: %s bpm Battery charge: %s %%</string>
+    <string name="chart_screenshot">Send screenshot</string>
+    <string name="alternative_text_start">1</string>
+    <string name="alternative_text_end">end</string>
+    <string name="tags_hint">Type here to add new tag</string>
+    <string name="title_activity_settings">Application Settings</string>
+    <string name="pref_user_height" translatable="false">Height, cm</string>
+    <string name="pref_user_height_summary" translatable="false">User height in cm</string>
+    <string name="pref_user_sex" translatable="false">Sex</string>
+    <string name="pref_user_sex_summary" translatable="false">Specify user sex</string>
+    <string name="pref_user_bdate" translatable="false">Birthday</string>
+    <string name="pref_user_bdate_summary" translatable="false">User birth date</string>
+    <string name="pref_hr_monitor">Heart rate monitor</string>
+    <string name="pref_hr_monitor_auto_switch">HR input mode</string>
+    <string name="pref_hr_monitor_auto_switch_summary">HR input mode</string>
+    <string name="pref_exercise">Exercise settings</string>
+    <string name="pref_exercise_sound_inhale">Inhale alarm</string>
+    <string name="pref_exercise_sound_inhale_summary">Sound used when inhale</string>
+    <string name="pref_exercise_sound_pause">Pause alarm</string>
+    <string name="pref_exercise_sound_pause_summary">Sound used when pause</string>
+    <string name="pref_exercise_sound_exhale">Exhale alarm</string>
+    <string name="pref_exercise_sound_exhale_summary">Sound used when exhale</string>
+    <string name="pref_exercise_sound_hold">Hold alarm</string>
+    <string name="pref_exercise_sound_hold_summary">Sound used when hold</string>
+    <string name="pref_exercise_sound_onoff">Enable sound</string>
+    <string name="pref_exercise_metronome_onoff_summary">Allow metronome sound during exercise if phase duration longer than 5 sec</string>
+    <string name="pref_exercise_metronome_onoff">Enable metronome</string>
+    <string name="pref_exercise_sound_onoff_summary">Allow sounds during exercise</string>
+    <string name="pref_exercise_tag_onoff">Exercise tags</string>
+    <string name="pref_exercise_tag_onoff_summary">Switch on tags for exercises</string>
+    <string name="pref_exercise_screen_onoff">Lock screen</string>
+    <string name="pref_exercise_screen_onoff_summary">Prevent turning screen off during exercise</string>
+    <string name="pref_exercise_visualization">Visualization</string>
+    <string name="pref_exercise_visualization_name">Type</string>
+    <string name="pref_exercise_visualization_summary">Select visualization type</string>
+    <string name="title_activity_temptemp">temptemp</string>
+    <string name="heart_rate_variability_title">Exercise measurements</string>
+    <string name="heart_rate_variability_RecordLength">Length</string>
+    <string name="heart_rate_variability_var_header" formatted="false">
+<![CDATA[
+        <tr>
+            <td><b>Measurement<b></td>
+            <td><b>Current value<b></td>
+            <td><b>Dynamics<b></td>
+        </tr>
+        ]]>
+    </string>
+    <string name="heart_rate_variability_var_mask" formatted="false">
+<![CDATA[
+        <tr>
+            <td><b>%s<b></td>
+            <td>%s %s</td>
+            <td>%s %%</td>
+        </tr>
+        ]]>
+    </string>
+    <string name="no_heart_rate_provided" formatted="false">
+<![CDATA[
+         <br/>
+         <h2>This exercise session contains no heart rate data.</h2>
+        ]]>
+    </string>
+    <string name="heart_rate_variability_Millisecond_mask" formatted="false">%.2f ms</string>
+    <string name="title_activity_statistic">StatisticActivity</string>
+    <string name="statistics_no_tags">Not taged records</string>
+    <string name="statistics_no_data">Not enought data</string>
+    <string name="statistics_text_mask" formatted="false">Measurement \'%s\': %.2f ± %.2f %s</string>
+    <string name="exerc_details_button">details</string>
+    <string name="title_activity_pretrain_description">PretrainDescriptionActivity</string>
+    <string name="title_activity_camera_preview" translatable="false">Camera preview</string>
+    <string name="info_variables">Variables info</string>
+    <string name="variables_description" formatted="false">
+<![CDATA[
+    <p><b>%s</b> - %s</p>
+    ]]>
+    </string>
+    <string name="progress_recompute_title">Records recomputation</string>
+    <string name="progress_recompute_text">Please wait until existing records will be recomputed…</string>
+    <string name="progress_connect_hr_monitor_title">Heart rate monitor preparation</string>
+    <string name="progress_connect_hr_monitor_text">Prepare your heart rate monitor and wait till data comes to app…</string>
+    <string name="pretrain_description_title">Session details</string>
+    <string name="description_scheme">Exercise overview</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3353447186353603/9369035373</string>
+    <string name="intertestial_ad_unit_id" translatable="false">ca-app-pub-3353447186353603/8629477771</string>
+
+    <string name="welcome_alert_title">Warning</string>
+    <string name="welcome_alert_content">Breathing exercises are contraindicated for some conditions,  please consult a doctor prior to use if you have any doubts.</string>
+    <string name="welcome_alert_ok">OK</string>
+    <string name="welcome_alert_ok_do_not_show_again">OK, do not show again</string>
+    <string name="sound_pref_chooose_file">Choose file...</string>
+    <string name="sound_pref_cancel">Cancel</string>
+    <string name="settings_only_short_audio_enabled">Only short (less then 5 sec) audio enabled.</string>
+    <string name="pref_advanced">Advanced</string>
+    <string name="pref_advanced_directory">Path to hypoxic_add.xml</string>
+    <string name="pref_advanced_directory_summary">Directory to store file with additional exercises</string>
+    <string name="alarm_title">Hypoxic reminder</string>
+    <string name="alarm_content">Don\'t forget to perform breathing exercises</string>
+    <string name="settings_alarm_allowdr">Daily reminder</string>
+    <string name="settings_alarm_description">Allow daily notification to perform breathing exercises</string>
+    <string name="settings_camera_flash">Switch on flashlight</string>
+    <string name="settings_camera_flash_description">Use LED/Flashlight in Camera Input Mode</string>
+    <string name="camera_service_no_camera">No suitable Camera!</string>
+    <string name="camera_alert_title">Warning on Camera Heart Rate Detection</string>
+    <string name="camera_alert_content">\tTips to use Camera Pulse Detector:
+\n
+\n\tAt the top-left corner of your device, there is small preview of your camera. If you see no preview, try to reset HR input via button in action bar or check camera with vendor app.
+\n\tCover the entire camera lens with the tip of your finger, preview at the top-left must turn to pulsating red picture.
+\n\tDo not move your finger, especially when you retain breath.
+\n\tPress gently on the lens. Pressing too hard cuts off circulation.
+\n\tHeart rate detection works better in well lighted environment.
+\n\tDo not mix records, obtained from other HR monitors.
+\n\tIf you\'re feeling freezes or lowering fps, try to set Visualization to None mode</string>
+    <string name="camera_alert_ok" translatable="false">OK</string>
+    <string name="camera_alert_ok_do_not_show_again">OK, do not show again</string>
+    <string name="variables_blank_page" formatted="false" translatable="false">
+<![CDATA[
+<html>
+<head>
+<title>Statistics</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<style>
+    body, html {
+        width: 100 %%;
+        height: 100 %%;
+    }
+    table {
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        font-family: Arial;
+        font-size: 25px;
+    }
+</style>
+
+</head>
+
+<body>
+%s
+</body>
+
+</html>
+    ]]>
+    </string>
+    <string name="sensor_no_support">Your OS does not support TYPE_HEART_RATE. Heart rate unavailable.</string>
+    <string name="alarmclock_no_support">Cannot set Alarm Clock.</string>
+
+    <string name="app_rate">If you enjoy using <b>Hypoxic</b>, please take a moment to rate it. Thanks for your support!</string>
+    <string name="app_rate_title">Rate <b>Hypoxic</b></string>
+    <string name="app_rate_remind_later">Remind me later</string>
+    <string name="app_rate_no">No, thanks</string>
+</resources>

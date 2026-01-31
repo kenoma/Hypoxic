@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stat_vars">
+
+
+        <item
+            db_alias="RDNN"
+            isHeartRate="true"
+            human_readable="NN"
+            description="Average of interbeat interval."
+            unit = "ms"
+            />
+        <item
+            db_alias="SDANN"
+            isHeartRate="true"
+            human_readable="SDNN"
+            description="Standard deviation of NN intervals in the entire recording."
+            unit = "ms"
+            />
+        <item
+            db_alias="RMSSD"
+            isHeartRate="true"
+            human_readable="RMSSD"
+            description="The square root of the mean of the sum of the squares of differences between adjacent NN intervals."
+            unit = "ms"
+            />
+        <item
+            db_alias="p50"
+            isHeartRate="true"
+            human_readable="p50"
+            description=" Number of pairs of adjacent NN intervals differing by more than 50 ms in the entire recording divided by the total number of all NN intervals."
+            unit = "%"
+            />
+
+        <item
+            db_alias="length"
+            isHeartRate="true"
+            human_readable="Length"
+            description="Interbeats intervals in record"
+            unit = "beats"
+            />
+
+        <item
+            db_alias="CQ"
+            isHeartRate="true"
+            human_readable="Synchronization"
+            description="Low values of this index indicate independence between breath and pulse, while high values indicate synchronization reaching maximum when index is equal to 1."
+            unit = ""/>
+        <item
+            db_alias="perNN"
+            isHeartRate="true"
+            human_readable="HR percentile"
+            description="Represents 1% percentile of momental heart rate value. Can be interpreted as lowest heart rate achieved during training session. At hypoxic training positive dynamics revealed when this value is decreasing."
+            unit = "bpm"/>
+
+        <item
+            db_alias="stange"
+            isHeartRate="false"
+            human_readable="Max Breath Pause"
+            description="Maximal breath hold time after inhale.
+This indicator is also a good estimation of fitness condition.
+For untrained person it is good to be able to hold the breath for 40-50 seconds, and for a trained person it is 60-90 seconds.
+Illness or fatigue causes the reduction of apnea time to 30-35 seconds.
+This indicator also refers to Stange test.
+"
+            unit = "sec"
+            />
+
+        <item
+            db_alias="hench"
+            isHeartRate="false"
+            human_readable="Max Breath Hold"
+            description="Maximal breath hold time after exhale.
+This indicator is also a good estimation of fitness condition.
+For untrained person it is good to be able to hold the breath for 30 seconds, and for a trained person it is 60 seconds.
+This indicator also refers to Hench test."
+            unit = "sec"
+            />
+
+    </string-array>
+</resources>

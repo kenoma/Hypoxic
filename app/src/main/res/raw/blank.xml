@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    !!!Exercise!!!
+    id - exercise id, must be unique value greater than 1000
+    name - exercise name
+    mode - now available only one customizable value "skip"
+    short - short exercise description
+    detailed - detailed exercise description
+    pattern - sequence of breathing phases in one cycle 'i' - inhale, 'p' - pause, 'e' - exhale, 'h' - hold
+    cycles - total number of cycles in exercise session
+    enable_tuning - set it to false to preserve you scheme
+    !!!event!!!
+    cycle - number of cycle from which duration scheme will be applied. event with cycle="0" must be defined anyway
+    duration - durations in ms, applied to Exercise.pattern
+    -->
+    <Exercise
+        id="1000"
+        name="Example"
+        mode= "skip"
+        short="User defined scheme"
+        detailed ="detailed desription"
+        pattern="i,p,e,h"
+        cycles="20"
+        enable_tuning="false">
+        <event cycle="0"    duration="3000,0,3000,0"/>
+        <event cycle="10"    duration="3000,0,3000,0"/>
+    </Exercise>
+
+
+</resources>

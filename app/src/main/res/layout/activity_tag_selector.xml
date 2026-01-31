@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ListView 
+        android:id="@+id/list_view"
+        android:layout_gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/pretrain_chart_margin"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_layout_bg"
+        >
+        
+    </ListView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_margin="@dimen/pretrain_chart_margin"
+
+        android:layout_gravity="center"
+        android:id="@+id/start_button"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+
+
+        android:text="@string/button_exercise_resume"
+        android:textSize="@dimen/button_font_size"
+        android:onClick="Resume"
+        android:singleLine="true"
+        android:background="@drawable/button_background"
+        />
+
+</LinearLayout>

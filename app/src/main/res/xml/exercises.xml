@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <Exercise id="2"
+              name="Hypoxic training"
+              mode= "hypoxic"
+              short="Training with breath hold"
+              detailed ="   Hypoxia means body's deprivation of adequate oxygen supply. The idea of hypoxic training comes from swimming where sportsmen simulate limiting oxygen intake for improving their performance. During hypoxic training body begins to adapt to the lower levels of oxygen by producing more red blood cells in order to use more of the oxygen from the air that you breathe in. With more red blood cells, you can utilize more than the usual 40% of the oxygen you breathe in.
+              &#xA;    Set breath hold duration to your maximum tolerance level, pause must be sufficiently long, barely tolerant, but should not lead to involuntary breathing. This exercise is recommended to execute 2-3 times in a day for maximum effectiveness.
+              &#xA;    You can double tap on screen during long breathing phase to interrupt it."
+              pattern="i,p,e,h"
+              cycles="59"
+              enable_tuning="true">
+        <event cycle="0"    duration="10000,10000,10000,10000"/>             <!-- 20 -->
+    </Exercise>
+
+    <Exercise id="1"
+              name="Paced breathing"
+              mode= "skip"
+              short="User defined breathing scheme"
+              detailed ="You can set up your own breathing scheme."
+              pattern="i,p,e,h"
+              cycles="20"
+              enable_tuning="true">
+        <event cycle="0" duration="3000,0,3000,0"/>
+    </Exercise>
+
+    <Exercise id="3"
+              name="Relaxing breathing"
+              mode= "skip"
+              short="Exercise for relaxation and restoring energy"
+              detailed ="During this breathing session you can calm the nervous system, increase concentration and reduce stress. Sit or lay in comfortable place, breathe freely through the nose and follow instructions."
+              pattern="i,p,e,h"
+              cycles="104"
+              enable_tuning="false">
+        <event cycle="0" duration="1000,0,1000,0"/>
+        <event cycle="30" duration="2000,0,2000,0"/>
+        <event cycle="60" duration="3000,0,3000,0"/>
+        <event cycle="75" duration="4000,0,4000,0"/>
+        <event cycle="85" duration="4000,2000,4000,2000"/>
+        <event cycle="100" duration="4000,4000,4000,4000"/>
+    </Exercise>
+
+    <Exercise id="4"
+              name="Rhythmical breathing method"
+              mode= "skip"
+              short="Exercise from book T. Nakamura 'Oriental Breathing Therapy'"
+              detailed ="This breathing method is designed to be carried out in preparation for the next breathing methods.
+In the first stage, inhale and exhale through the nose for five times.
+On the final expiration, purse your lips and, with full force, expel all air from the lungs. After this, hold your breath.
+Then, take as much air as possible in one slow draught and return to the first stage."
+              pattern="i,p,e,h"
+              cycles="35"
+              enable_tuning="false">
+        <event cycle="0" duration="2000,0,2000,0"/>
+        <event cycle="5" duration="2000,0,1000,4000"/>
+        <event cycle="6" duration="6000,0,2000,0"/>
+        <event cycle="7" duration="2000,0,2000,0"/>
+        <event cycle="12" duration="2000,0,1000,4000"/>
+        <event cycle="13" duration="6000,0,2000,0"/>
+        <event cycle="14" duration="2000,0,2000,0"/>
+        <event cycle="19" duration="2000,0,1000,4000"/>
+        <event cycle="20" duration="6000,0,2000,0"/>
+        <event cycle="21" duration="2000,0,2000,0"/>
+        <event cycle="26" duration="2000,0,1000,4000"/>
+        <event cycle="27" duration="6000,0,2000,0"/>
+        <event cycle="28" duration="2000,0,2000,0"/>
+        <event cycle="33" duration="2000,0,1000,4000"/>
+        <event cycle="34" duration="6000,0,2000,0"/>
+    </Exercise>
+
+    <Exercise id="5"
+              name="Prolonged breathing method"
+              mode= "skip"
+              short="Exercise from book T. Nakamura 'Oriental Breathing Therapy'"
+              detailed ="Inhale and exhale through the nose. Keep your posture erect and follow instructions."
+              pattern="i,p,e,h"
+              cycles="67"
+              enable_tuning="false">
+        <event cycle="0" duration="2000,0,2000,0"/>
+        <event cycle="5" duration="2000,0,1000,4000"/>
+        <event cycle="6" duration="6000,0,2000,0"/>
+        <event cycle="7" duration="2000,0,2000,0"/>
+        <event cycle="12" duration="2000,0,1000,4000"/>
+        <event cycle="13" duration="6000,0,2000,0"/>
+        <event cycle="14" duration="2000,0,2000,0"/>
+        <event cycle="19" duration="2000,0,1000,4000"/>
+        <event cycle="20" duration="6000,0,2000,0"/>
+        <event cycle="21" duration="2000,0,2000,5000"/>
+
+        <event cycle="22" duration="3000,2000,3000,2000"/>
+        <event cycle="23" duration="4000,2000,4000,2000"/>
+        <event cycle="24" duration="5000,2000,5000,2000"/>
+        <event cycle="25" duration="6000,2000,6000,2000"/>
+        <event cycle="26" duration="7000,2000,7000,2000"/>
+        <event cycle="27" duration="6000,2000,6000,2000"/>
+        <event cycle="28" duration="5000,2000,5000,2000"/>
+        <event cycle="29" duration="4000,2000,5000,2000"/>
+        <event cycle="30" duration="3000,2000,3000,2000"/>
+
+        <event cycle="32" duration="4000,2000,4000,2000"/>
+        <event cycle="33" duration="5000,2000,5000,2000"/>
+        <event cycle="34" duration="6000,2000,6000,2000"/>
+        <event cycle="35" duration="7000,2000,7000,2000"/>
+        <event cycle="36" duration="6000,2000,6000,2000"/>
+        <event cycle="37" duration="5000,2000,5000,2000"/>
+        <event cycle="38" duration="4000,2000,5000,2000"/>
+        <event cycle="39" duration="3000,2000,3000,2000"/>
+
+        <event cycle="41" duration="4000,2000,4000,2000"/>
+        <event cycle="42" duration="5000,2000,5000,2000"/>
+        <event cycle="43" duration="6000,2000,6000,2000"/>
+        <event cycle="44" duration="7000,2000,7000,2000"/>
+        <event cycle="45" duration="6000,2000,6000,2000"/>
+        <event cycle="46" duration="5000,2000,5000,2000"/>
+        <event cycle="47" duration="4000,2000,5000,2000"/>
+        <event cycle="48" duration="3000,2000,3000,2000"/>
+
+
+        <event cycle="50" duration="4000,2000,4000,2000"/>
+        <event cycle="51" duration="5000,2000,5000,2000"/>
+        <event cycle="52" duration="6000,2000,6000,2000"/>
+        <event cycle="53" duration="7000,2000,7000,2000"/>
+        <event cycle="54" duration="6000,2000,6000,2000"/>
+        <event cycle="55" duration="5000,2000,5000,2000"/>
+        <event cycle="56" duration="4000,2000,5000,2000"/>
+        <event cycle="57" duration="3000,2000,3000,2000"/>
+
+        <event cycle="59" duration="4000,2000,4000,2000"/>
+        <event cycle="60" duration="5000,2000,5000,2000"/>
+        <event cycle="61" duration="6000,2000,6000,2000"/>
+        <event cycle="62" duration="7000,2000,7000,2000"/>
+        <event cycle="63" duration="6000,2000,6000,2000"/>
+        <event cycle="64" duration="5000,2000,5000,2000"/>
+        <event cycle="65" duration="4000,2000,5000,2000"/>
+        <event cycle="66" duration="3000,2000,3000,2000"/>
+    </Exercise>
+
+    <Exercise id="6"
+              name="Seven by seven breathing method"
+              mode= "skip"
+              short="Exercise from book T. Nakamura 'Oriental Breathing Therapy'"
+              detailed ="Keep your posture upright, and breathe through your nose."
+              pattern="i,p,e,h"
+              cycles="36"
+              enable_tuning="false">
+        <event cycle="0" duration="2000,0,2000,0"/>
+        <event cycle="5" duration="2000,0,1000,4000"/>
+        <event cycle="6" duration="6000,0,2000,0"/>
+        <event cycle="7" duration="2000,0,2000,0"/>
+        <event cycle="12" duration="2000,0,1000,4000"/>
+        <event cycle="13" duration="6000,0,2000,0"/>
+        <event cycle="14" duration="2000,0,2000,0"/>
+        <event cycle="19" duration="2000,0,1000,4000"/>
+        <event cycle="20" duration="6000,0,2000,0"/>
+        <event cycle="21" duration="2000,0,2000,5000"/>
+        <event cycle="22" duration="7000,2000,7000,2000"/>
+
+    </Exercise>
+
+    <Exercise id="7"
+              name="Broken wind breathing method"
+              mode= "skip"
+              short="Exercise from book T. Nakamura 'Oriental Breathing Therapy'"
+              detailed ="This pattern of exercise is quite difficult.
+Those suffering from hypertension and heart disease are strictly prohibited from performing this exercise.
+If they were to attempt this exercise, they might encounter an unexpected setback or an accident."
+              pattern="i,p,e,h"
+              cycles="47"
+              enable_tuning="false">
+        <event cycle="0" duration="2000,0,2000,0"/>
+        <event cycle="5" duration="2000,0,1000,4000"/>
+        <event cycle="6" duration="6000,0,2000,0"/>
+        <event cycle="7" duration="2000,0,2000,0"/>
+        <event cycle="12" duration="2000,0,1000,4000"/>
+        <event cycle="13" duration="6000,0,2000,0"/>
+        <event cycle="14" duration="2000,0,2000,0"/>
+        <event cycle="19" duration="2000,0,1000,4000"/>
+        <event cycle="20" duration="6000,0,2000,0"/>
+        <event cycle="21" duration="2000,0,2000,5000"/>
+
+        <event cycle="22" duration="14000,20000,3000,0"/>
+        <event cycle="23" duration="2000,0,2000,0"/>
+        <event cycle="26" duration="14000,25000,3000,0"/>
+        <event cycle="27" duration="2000,0,2000,0"/>
+        <event cycle="30" duration="14000,30000,3000,0"/>
+        <event cycle="31" duration="2000,0,2000,0"/>
+        <event cycle="36" duration="14000,30000,3000,0"/>
+        <event cycle="37" duration="2000,0,2000,0"/>
+        <event cycle="40" duration="14000,25000,3000,0"/>
+        <event cycle="41" duration="2000,0,2000,0"/>
+        <event cycle="44" duration="14000,20000,3000,0"/>
+        <event cycle="45" duration="2000,0,2000,0"/>
+    </Exercise>
+
+    <Exercise id="8"
+              name="Stange test"
+              mode= "skip"
+              short="Stange's test with breath hold after inhale"
+              detailed ="
+Apnea test is used for estimation of body's oxygen supply.
+This test is also a good indicator of fitness condition.
+&#xA;For untrained person it is good to be able to hold the breath for 40-50 seconds, and for a trained person it is 60-90 seconds.
+The better is fitness condition, the bigger is apnea time.
+Illness or fatigue causes the reduction of apnea time to 30-35 seconds.
+&#xA;To perform this test follow the instructions, and during breath-hold, double-tap the screen as soon as you feel that you can no longer perform apnea.
+"
+              pattern="i,p,e,h"
+              cycles="20"
+              enable_tuning="false">
+        <event cycle="0" duration="2000,0,2000,0"/>
+        <event cycle="18" duration="2000,300000,2000,0"/>
+        <event cycle="19" duration="2000,0,2000,0"/>
+
+    </Exercise>
+
+    <Exercise id="9"
+              name="Hench test"
+
+              mode= "skip"
+              short="Hench's test with breath hold after exhale"
+              detailed ="
+Apnea test is used for estimation of body's oxygen supply.
+This test is also a good indicator of fitness condition.
+&#xA;For untrained person it is good to be able to hold the breath for 30 seconds, and for a trained person it is 60 seconds.
+The better is fitness condition, the bigger is apnea time.
+&#xA;To perform this test follow the instructions, and during breath-hold, double-tap the screen as soon as you feel that you can no longer perform apnea.
+"
+              pattern="i,p,e,h"
+              cycles="20"
+              enable_tuning="false">
+        <event cycle="0" duration="2000,0,2000,0"/>
+        <event cycle="18" duration="2000,0,2000,300000"/>
+        <event cycle="19" duration="2000,0,2000,0"/>
+
+    </Exercise>
+
+    <Exercise id="100"
+              name="Vishama-vritti"
+              mode= "hypoxic"
+              short="Pranayama technique of uneven breath"
+              detailed =" This exercise is not recommended for beginners. Its main purpose is to stimulate peripheral nervous system, which improves mood, reduces anxiety and increases energy.
+              &#xA; Set breath hold duration to your acceptable tolerance level, this exercise must be performed without strain.
+              &#xA; You can double tap on screen during long breathing phase to interrupt it."
+              pattern="i,p,e,h"
+              cycles="20"
+              enable_tuning="true">
+        <event cycle="0"    duration="10000,10000,10000,10000"/>             <!-- 20 -->
+    </Exercise>
+
+    <Exercise id="101"
+              name="Sama-vritti"
+              mode= "hypoxic"
+              short="Pranayama technique of even breath"
+              detailed =" This is calming and balancing exrcise. &#xA; Set breath hold duration to your acceptable tolerance level, this exercise must be performed without strain.
+              &#xA; You can double tap on screen during long breathing phase to interrupt it."
+              pattern="i,p,e,h"
+              cycles="20"
+              enable_tuning="true">
+        <event cycle="0"    duration="10000,10000,10000,10000"/>             <!-- 20 -->
+    </Exercise>
+
+    <Exercise id="102"
+              name="Antara kumbhaka"
+              mode= "hypoxic"
+              short="Breath retention after inhale"
+              detailed =" This is energizing exercise, but for those suffering from hypertension, heart disease, eye or ear problems are strictly prohibited from performing this exercise.
+              &#xA; Set breath hold duration to your acceptable tolerance level, this exercise must be performed without strain.
+              &#xA; You can double tap on screen during long breathing phase to interrupt it."
+              pattern="i,p,e,h"
+              cycles="20"
+              enable_tuning="true">
+        <event cycle="0"    duration="10000,10000,10000,10000"/>             <!-- 20 -->
+    </Exercise>
+
+    <Exercise id="103"
+              name="Bahir kumbhaka"
+              mode= "hypoxic"
+              short="Breath retention after exhale"
+              detailed =" This is calming exercise, but for those suffering from hypertension, heart disease, eye or ear problems are strictly prohibited from performing this exercise.
+              &#xA; Set breath hold duration to your acceptable tolerance level, this exercise must be performed without strain.
+              &#xA; You can double tap on screen during long breathing phase to interrupt it."
+              pattern="i,p,e,h"
+              cycles="20"
+              enable_tuning="true">
+        <event cycle="0"    duration="10000,10000,10000,10000"/>             <!-- 20 -->
+    </Exercise>
+
+</resources>

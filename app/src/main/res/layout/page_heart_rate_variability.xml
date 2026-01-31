@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_gravity="center_horizontal">
+
+<!--    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heart_rate_variability_title"
+        android:textSize="@dimen/heart_rate_variability_title"
+
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="5dp"
+        />-->
+
+    <!--<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.5"
+        android:fillViewport="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_layout_bg_white"
+        android:padding="7dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        >-->
+
+    <TextView
+        android:id="@+id/Tags"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_layout_bg"
+        android:text="Samplsasdf"
+        android:textSize="@dimen/heart_rate_variability_row"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        />
+
+    <WebView
+        android:id="@+id/stat_browser"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.5"
+        android:fillViewport="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_layout_bg_white"
+        android:padding="7dp"
+        />
+
+</LinearLayout>
